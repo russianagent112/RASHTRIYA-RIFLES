@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>⚔️ Rashtriya Rifles ⚔️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="start-screen" class="screen">
+        <h1 class="title">⚔️ RASHTRIYA RIFLES ⚔️</h1>
+        <p class="subtitle">TAP LEFT / RIGHT TO DODGE ENEMIES</p>
+        <button id="play-btn">PLAY MISSION</button>
+    </div>
+
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="score-display">SCORE: 0</div>
+    </div>
+
+    <div id="gameover-screen" class="screen hidden">
+        <h1 class="gameover-title">MISSION FAILED</h1>
+        <p id="final-score">SCORE: 0</p>
+        <button id="restart-btn">RETRY</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
 
