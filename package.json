@@ -1,0 +1,12 @@
+{
+  "name": "rashtriya-rifles-game",
+  "version": "1.0.0",
+  "description": "Mobile-first 3-lane endless runner web game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
